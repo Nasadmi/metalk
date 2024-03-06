@@ -1,0 +1,19 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "declaration": true,
+        "removeComments": true,
+        "noImplicitAny": true,
+        "outDir": "dist/",
+        "rootDir": "src/",
+        "strict": true,
+        "strictNullChecks": true,
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules/**/*", "./.eslintrc.js"]
+}
